@@ -1,6 +1,6 @@
 {
   "name": "google-plugin",
-  "description": "Skills para ler e editar arquivos do Google Drive, Docs, Sheets e Slides",
+  "description": "Skills para ler e editar arquivos do Google Drive, Docs, Sheets, Slides e diagramas draw.io",
   "version": "1.0.0",
   "author": {
     "name": "Filipe de Freitas Kanitz",

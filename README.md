@@ -44,7 +44,7 @@ O Claude Code pode atualizar automaticamente marketplaces e seus plugins na inic
 
 ## Plugins disponíveis
 
-### `google-plugin` — Google Drive, Docs, Sheets e Slides
+### `google-plugin` — Google Drive, Docs, Sheets, Slides e draw.io
 
 | Skill | O que faz |
 |---|---|
@@ -52,8 +52,9 @@ O Claude Code pode atualizar automaticamente marketplaces e seus plugins na inic
 | `google-docs` | Lê, cria (em branco ou a partir de template) e edita documentos |
 | `google-sheets` | Lê, escreve, formata e cria planilhas e abas |
 | `google-slides` | Inspeciona, cria (em branco ou a partir de template) e preenche apresentações |
+| `draw-io` | Lê, edita e cria diagramas `.drawio` (diagrams.net) armazenados no Drive, manipulando o XML do mxGraph |
 
-**Variáveis de ambiente:** `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN` (compartilhadas por todas as skills; Docs, Sheets e Slides exigem escopo de escrita).
+**Variáveis de ambiente:** `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN` (compartilhadas por todas as skills; Docs, Sheets, Slides e draw-io exigem escopo de escrita).
 
 Passo a passo para criar a credencial OAuth e gerar o refresh token: [oauth-setup.md](plugins/google-plugin/skills/google-drive/references/oauth-setup.md).
 

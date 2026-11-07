@@ -20,6 +20,7 @@ plugins/
       google-docs/                       # ler, criar e editar documentos (references/batchupdate-requests.md)
       google-sheets/                     # ler e editar planilhas (references/batchupdate-receitas.md)
       google-slides/                     # criar e editar apresentações (references/batchupdate-requests.md)
+      draw-io/                           # ler, editar e criar diagramas .drawio no Drive (references/drawio-xml-format.md)
   gitlab-plugin/
     .claude-plugin/plugin.json
     skills/
@@ -56,7 +57,7 @@ Ao adicionar um novo plugin, ele precisa ser registrado em `.claude-plugin/marke
 
 | Plugin | Skills | Variáveis |
 |---|---|---|
-| `google-plugin` | `google-drive`, `google-docs`, `google-sheets`, `google-slides` | `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN` |
+| `google-plugin` | `google-drive`, `google-docs`, `google-sheets`, `google-slides`, `draw-io` | `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN` |
 | `gitlab-plugin` | `gitlab-card`, `gitlab-pr`, `gitlab-release`, `gitlab-wiki` | `GITLAB_URL`, `GITLAB_TOKEN` (opcional `GITLAB_PROJECT`) |
 | `azure-plugin` | `azure-card` | `AZURE_URL_BOARD`, `AZURE_USER_API_KEY` |
 | `board-plugin` | `trello-card`, `generate-card-trello` | `TRELLO_API_KEY`, `TRELLO_TOKEN` |
