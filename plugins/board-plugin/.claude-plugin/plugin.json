@@ -1,0 +1,9 @@
+{
+  "name": "board-plugin",
+  "description": "Skills para ler e escrever cards em boards do Trello",
+  "version": "1.0.0",
+  "author": {
+    "name": "Filipe de Freitas Kanitz",
+    "email": ""
+  }
+}

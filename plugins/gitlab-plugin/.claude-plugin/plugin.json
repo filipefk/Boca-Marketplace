@@ -1,0 +1,9 @@
+{
+  "name": "gitlab-plugin",
+  "description": "Skills para gerenciar issues, merge requests, releases e wiki no GitLab",
+  "version": "1.0.0",
+  "author": {
+    "name": "Filipe de Freitas Kanitz",
+    "email": ""
+  }
+}

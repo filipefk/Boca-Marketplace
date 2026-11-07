@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "boca-marketplace",
+  "description": "Marketplace de plugins do Boca",
+  "owner": {
+    "name": "Filipe de Freitas Kanitz",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "google-plugin",
+      "description": "Skills para ler e editar arquivos do Google Drive, Docs, Sheets e Slides",
+      "source": "./plugins/google-plugin"
+    },
+    {
+      "name": "gitlab-plugin",
+      "description": "Skills para gerenciar issues, merge requests, releases e wiki no GitLab",
+      "source": "./plugins/gitlab-plugin"
+    },
+    {
+      "name": "azure-plugin",
+      "description": "Skills para ler e escrever work items no Azure DevOps",
+      "source": "./plugins/azure-plugin"
+    },
+    {
+      "name": "board-plugin",
+      "description": "Skills para ler e escrever cards em boards do Trello",
+      "source": "./plugins/board-plugin"
+    }
+  ]
+}

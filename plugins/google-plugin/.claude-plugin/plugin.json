@@ -1,0 +1,9 @@
+{
+  "name": "google-plugin",
+  "description": "Skills para ler e editar arquivos do Google Drive, Docs, Sheets e Slides",
+  "version": "1.0.0",
+  "author": {
+    "name": "Filipe de Freitas Kanitz",
+    "email": ""
+  }
+}

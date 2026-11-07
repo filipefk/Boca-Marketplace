@@ -1,0 +1,9 @@
+{
+  "name": "azure-plugin",
+  "description": "Skills para ler e escrever work items no Azure DevOps",
+  "version": "1.0.0",
+  "author": {
+    "name": "Filipe de Freitas Kanitz",
+    "email": ""
+  }
+}
